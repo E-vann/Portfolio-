@@ -3,7 +3,7 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     font-family: 'Poppins';
-    cursor: url(/images/cursor.svg), auto;
+    cursor: url(/images/cursor.svg), progress;
 }
 
 *,
@@ -221,6 +221,11 @@ header[role="header"] nav #menu-button.open span:nth-child(3) {
 
 
 /*===== main ===*/
+
+li>figure {
+    transition: 0.2s;
+    /* border: 5px yellow solid */
+}
 
 .ligne {
     display: flex;
@@ -541,7 +546,7 @@ article[role="pge-title-content"].contact-header p a:hover {
     background-color: rgb(238, 176, 160);
     margin: 41px auto;
     margin-bottom: 0;
-    transition: 1s;
+    transition: 300ms;
 }
 
 .contat-from-wrapper input[type="submit"]:hover {
