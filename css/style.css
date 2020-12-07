@@ -223,7 +223,7 @@ header[role="header"] nav #menu-button.open span:nth-child(3) {
 /*===== main ===*/
 
 li>figure {
-    transition: 0.2s;
+    transition: 0.4s;
     /* border: 5px yellow solid */
 }
 
